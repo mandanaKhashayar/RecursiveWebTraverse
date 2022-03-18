@@ -10,16 +10,16 @@ public final class Constants {
     public static final List<Character> INVALID_WINDOWS_SPECIFIC_CHARS =
             new ArrayList<>(){
                 {add('"');
-                add('*');
-                add(':');
-                add('<');
-                add('>');
-                add('?');
-                add('\\');
-                add('|');
-                add('.');
-                add((char)0x7F);
-           }};
+                    add('*');
+                    add(':');
+                    add('<');
+                    add('>');
+                    add('?');
+                    add('\\');
+                    add('|');
+                    add('.');
+                    add((char)0x7F);
+                }};
     public final static String EMAIL_ICON="@";
     public final static String regexURl = "((http|https)://)(www.)?[a-zA-Z0-9@:%._\\+~#?&//=]{2,256}\\.[a-z] {2,6}\\b([-a-zA-Z0-9@:%._\\+~#?&//=]*)";
     public final static int MAX_DEPTH = 2;
@@ -27,3 +27,4 @@ public final class Constants {
 
     public static final String HTML_FILE_EXTENSION = ".html";
 }
+
