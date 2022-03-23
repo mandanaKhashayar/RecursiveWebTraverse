@@ -30,12 +30,6 @@ public class DownloadFileController implements DownloadController {
         fileDetails.setContent(downloader.downloadContent(directoryAddress.getUrlAddress()).toString());
         fileDetails.setDirectory(Paths.get(directoryAddress.getNodeDirectory()));
         repository.save(fileDetails);
-//            try {
-//                //fileDetails.setDirectory(directoryCreator.getDirectory(url));
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-        repository.save(fileDetails);
     }
 }
 
